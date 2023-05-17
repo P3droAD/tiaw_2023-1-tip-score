@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url('https://fonts.cdnfonts.com/css/franklin-gothic-demi-2');
+@import url('https://fonts.cdnfonts.com/css/lemonmilk?styles=18118');
+
+  body{
+    background-image: url(images/brady.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 115vw;
+   
+  } 
+  
+ 
+.container{
+    padding: 10px 45px;
+}
+.btn-success {
+  background-color: green;
+  color: #fff; 
+}
+
+.nav-item {
+  font-family: "poppins", sans-serif;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.nav-item li a:hover {
+  color: green;
+}
+.nav-link {
+  font-size: 14px;
+}
+
+
+
+.card {
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  .container {
+    margin-bottom: 0;
+}
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    border-radius: 0;
+    border: none;
+    background-color: green;
+    box-shadow: none;
+    display: inline-block;
+    
+  }
+  
+  
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+  }
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  .footer-section {
+    margin-top: 90px;
+    background: #151414;
+    position: relative;
+  }
+  .footer-cta {
+    border-bottom: 1px solid #373636;
+  }
+  .single-cta i {
+    color: white;
+    font-size: 30px;
+    float: left;
+    margin-top: 8px;
+  }
+  .cta-text {
+    padding-left: 15px;
+    display: inline-block;
+  }
+  .cta-text h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  .cta-text span {
+    color: #757575;
+    font-size: 15px;
+  }
+  
+  .fa-solid.fa-circle-exclamation {
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+  .footer-content {
+    position: relative;
+    z-index: 2;
+  }
+  .footer-pattern img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 330px;
+    background-size: cover;
+    background-position: 100% 100%;
+  }
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+  .footer-logo img {
+    max-width: 200px;
+  }
+  .footer-text p {
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #7e7e7e;
+    line-height: 28px;
+  }
+  .footer-social-icon span {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+  }
+  .footer-social-icon a {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+  }
+  .footer-social-icon i {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+  }
+  
+  .facebook-bg {
+    background: #3b5998;
+  }
+  
+  .twitter-bg {
+    background: #55acee;
+  }
+  .instagram-bg {
+    background: lightpink;
+  }
+  .youtube-bg {
+    background: red;
+  }
+  .tiktok-bg {
+    background: black;
+  }
+  
+  .footer-widget-heading h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .footer-widget-heading h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 2px;
+    width: 50px;
+    background: green;
+  }
+  .footer-widget ul li {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-bottom: 12px;
+  }
+  .footer-widget ul li a:hover {
+    color: green;
+  }
+  .footer-widget ul li a {
+    color: #878787;
+    text-transform: capitalize;
+  }
+  .subscribe-form {
+    position: relative;
+    overflow: hidden;
+  }
+  .subscribe-form input {
+    width: 100%;
+    padding: 14px 28px;
+    background: #2e2e2e;
+    border: 1px solid #2e2e2e;
+    color: #fff;
+  }
+  .subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: green;
+    padding: 13px 20px;
+    border: 1px solid green;
+    top: 0;
+  }
+  .subscribe-form button i {
+    color: #fff;
+    font-size: 22px;
+    transform: rotate(-6deg);
+  }
+  .copyright-area {
+    background: #202020;
+    padding: 25px 0;
+  }
+  .copyright-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #878787;
+  }
+  .copyright-text p a {
+    color: green;
+  }
+  .footer-menu li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .footer-menu li:hover a {
+    color: green;
+  }
+  .footer-menu li a {
+    font-size: 14px;
+    color: #878787;
+  }
+
+  /*pagina obrigado*/
+  .mainp{
+    background: #151414;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: black;
+    flex-direction: column;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+  
+  .textp{
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 3em;
+    margin-top: 2em;
+  }
+  .paragrafop{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+    margin-top: 1em;
+
+  }
+  .btnp{
+    padding: 15px 55px;
+    background:green;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    transition: all 0.5s;
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    margin-top: 2em;
+    
+
+  }
+  @media screen and (max-width: 768px) {
+    .textp {
+      font-size: 2.5em;
+    }
+    .paragrafop {
+      font-size: 1.2em;
+    }
+    .btnp {
+      font-size: 1em;
+    }
+  }

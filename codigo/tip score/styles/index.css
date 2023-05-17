@@ -1,0 +1,510 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url('https://fonts.cdnfonts.com/css/franklin-gothic-demi-2');
+@import url('https://fonts.cdnfonts.com/css/lemonmilk?styles=18118');
+@import url('https://fonts.cdnfonts.com/css/guilty-treasure');
+@import url('https://fonts.cdnfonts.com/css/forzan');
+
+                
+
+
+.nav-item {
+  font-family: "poppins", sans-serif;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.nav-item li a:hover {
+  color: green;
+}
+
+
+.main-text {
+    display: inline-block;
+    width: 1180px;
+    height: 500px;
+    float: right;
+    background-image: url(https://i.imgur.com/R8B9Ztb.png);
+    border-bottom: green solid 3px;
+    border-left: green solid 3px;
+}
+
+.text h1 {
+    font-family: 'Franklin Gothic Demi', sans-serif;
+    font-size: 90pt;
+    padding-left: 20px;
+    color: #fff;       
+}
+
+.text h2 {
+    font-family: 'Franklin Gothic Demi', sans-serif;
+    font-size: 90pt;
+    padding-left: 140px;
+    color: #fff;      
+}
+
+.text h3 {
+    display: inline-block;
+    font-family: 'Lemon/Milk', sans-serif;
+    font-style: italic;
+    font-size: 80pt;
+    padding-left: 20px;
+    color: green;
+
+}
+
+.text h4 {
+    display: inline-block;
+    font-family: 'Franklin Gothic Demi', sans-serif;
+    font-size: 90pt;
+    padding-left: 40px;
+    color: #fff; 
+}
+
+.match-news {
+    float: left;
+    width: 403px;
+    height: 1800px;
+    background-color: #2C5E1A;
+}
+.favorite-leagues {
+    display: block;
+    background-color: #151414;
+}
+.star-favorite {
+    display: flex;
+    font-family: 'Guilty Treasure', sans-serif;
+    align-items: center;
+    justify-content: center; 
+    margin-top: -20px;
+    color: #fff;                                
+}
+
+.star-icon {
+    width: 20px;
+    margin-left: 70px;
+    margin-bottom: -20px;
+}
+
+.card-text {
+    font-family: 'Franklin Gothic Demi', sans-serif;
+    text-align: center;
+}
+
+
+.img-atlanta {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.versus {
+    display: flex;
+    position: relative;
+    font-family: 'Franklin Gothic Demi', sans-serif;
+    font-style: bold;
+    color: #fff;
+    margin-left: 190px;
+    margin-top: -60px;
+}
+.img-miami {
+    width: 120px;
+    height: 120px;
+    margin-top: -80px;
+    margin-left: 250px;
+    display: inline-block;
+}
+
+.card-bet{
+display: flex;
+    font-family: 'Forzan', sans-serif;
+}
+
+.card-bet h1 {
+    font-size: 20pt;
+    background-color: #C8C8C8;
+    border-radius: 4px;
+    padding: 5px;
+    position: relative;
+    margin-left: 50px;
+}
+
+.card-bet h2 {
+    font-size: 20pt;
+    background-color: #C8C8C8;
+    border-radius: 4px;
+    padding: 5px;
+    position: relative;
+    margin-left: 165px;
+}
+
+.img-bet {
+    width: 110px;
+    height: 80px;
+    margin-left: 140px;
+    border: #C8C8C8 solid 0.2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.img-tylerherro {
+    width: 500px;
+    margin-left: -90px;
+    margin-top: -20px;
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+
+
+.stats{
+  background-color: #2C5E1A;
+  
+}
+
+.img-angelo {
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 105px;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.stats h1 {
+  font-family: "poppins", sans-serif;
+  font-size: 20pt;
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+  border-top: #fff solid 1px;
+}
+
+.stats h2 {
+  font-family: "poppins", sans-serif;
+  font-size: 20pt;
+  display: block;
+  color: #151414;
+  text-align: center;
+}
+
+.stats h3, .stats h4, .stats h5, .stats h6 {
+  font-family: 'Lemon/Milk', sans-serif;
+  font-size: 32pt;
+  margin-top: 75px;
+  display: block;
+  color: #151414;
+  text-align: center;
+  font-style: bold;
+  background-color: #FBDA61;
+  background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.name-la img {
+  width: 165px;
+  display: flex;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 135px;
+  opacity: 60%;
+}
+
+.name-la h7 {
+  display: flex;
+  position: absolute;
+  font-family: 'Guilty Treasure', sans-serif;
+  color: #fff;
+  font-style: italic;
+  margin-left: 20px;
+  opacity: 70%;
+  font-size: 26pt;
+  margin-top: 30px;
+}
+
+
+.bet-houses{
+  width: 1180px;
+  height: 1285px;
+  float: right;
+  background-color: #202020;
+}
+
+.card {
+  display: inline-block;
+  position: relative;
+  margin-left: 40px;
+  margin-top: 40px;
+  background-color: #373636;
+  border: #2C5E1A solid 2px;
+  border-radius: 5px;
+}
+
+.card-title h1 {
+  font-family: "poppins", sans-serif;
+  font-size: 12pt;
+  text-align: center;
+  border-bottom: #2C5E1A solid 2px;
+  font-style: bold;
+  color: #fff;
+}
+
+.card-game h2 {
+  font-family: "poppins", sans-serif;
+  font-size: 20pt;
+  text-align: center;
+  font-style: bold;
+  color: #fff;
+}
+
+
+
+
+.bet1, .draw, .bet2 {
+  font-family: "poppins", sans-serif;
+  display: inline-block;
+  margin-left: 55px;
+  background-color: #fff;
+  opacity: 60%;
+  border-radius: 5px;
+}
+
+.bet1 h1, .draw h1, .bet2 h1 {
+  font-size: 16pt;
+  padding: 5px;
+  color: #2C5E1A;
+  font-style: bold;
+  
+}
+
+
+.img-cruzeiro {
+  display: inline-block;
+  width: 40px;
+  margin-left: 5px;
+}
+
+.information-match h3 {
+  position: relative;
+  font-family: 'Franklin Gothic Demi', sans-serif;
+  font-size: 16pt;
+  color: #fff;
+  display: inline-block;
+  padding: 10px;
+}
+
+.img-bet-card {
+  width: 110px;
+  height: 80px;
+  margin-left: 120px;
+  border: #2C5E1A solid 0.2px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+
+.bet1-information {
+  font-family: "poppins", sans-serif;
+  display: inline-block;
+  
+  opacity: 80%;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  height: 600px;
+  margin-top: 1780px;
+  background: #151414;
+  position: relative;
+}
+
+.footer-cta {
+    
+    border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: white;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+    padding-left: 20px;
+    display: inline-block;
+}
+.cta-text h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    width: 40px;
+    
+  }
+
+.cta-text h5 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    width: 70px;
+    
+  }
+  .cta-text span {
+    color: #757575;
+    font-size: 15px;
+  }
+  
+  .fa-solid.fa-circle-exclamation {
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  .footer-content {
+    position: relative;
+    z-index: 2;
+  }
+  .footer-pattern img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 330px;
+    background-size: cover;
+    background-position: 100% 100%;
+  }
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+  .footer-logo img {
+    max-width: 200px;
+  }
+  .footer-text p {
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #7e7e7e;
+    line-height: 28px;
+  }
+  .footer-social-icon span {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+  }
+  .footer-social-icon a {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+  }
+  .footer-social-icon i {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+  }
+  
+  .facebook-bg {
+    background: #3b5998;
+  }
+  
+  .twitter-bg {
+    background: #55acee;
+  }
+  .instagram-bg {
+    background: lightpink;
+  }
+  .youtube-bg {
+    background: red;
+  }
+  .tiktok-bg {
+    background: black;
+  }
+  
+  .footer-widget-heading h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .footer-widget-heading h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 2px;
+    width: 50px;
+    background: green;
+  }
+  .footer-widget ul li {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-bottom: 12px;
+  }
+  .footer-widget ul li a:hover {
+    color: green;
+  }
+  .footer-widget ul li a {
+    color: #878787;
+    text-transform: capitalize;
+  }
+  .subscribe-form {
+    position: relative;
+    overflow: hidden;
+  }
+  .subscribe-form input {
+    width: 100%;
+    padding: 14px 28px;
+    background: #2e2e2e;
+    border: 1px solid #2e2e2e;
+    color: #fff;
+  }
+  .subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: green;
+    padding: 13px 20px;
+    border: 1px solid green;
+    top: 0;
+  }
+  .subscribe-form button i {
+    color: #fff;
+    font-size: 22px;
+    transform: rotate(-6deg);
+  }
+  .copyright-area {
+    background: #202020;
+    padding: 25px 0;
+  }
+  .copyright-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #878787;
+  }
+  .copyright-text p a {
+    color: green;
+  }
+  .footer-menu li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .footer-menu li:hover a {
+    color: green;
+  }
+  .footer-menu li a {
+    font-size: 14px;
+    color: #878787;
+  }
