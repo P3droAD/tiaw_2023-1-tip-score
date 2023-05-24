@@ -20,6 +20,7 @@
   align-items: center;
   justify-content: center;
   background-image: url(https://wallpaper.dog/large/17106735.jpg);
+  background-size: cover;
   
 }
 
@@ -41,7 +42,7 @@
   font-weight: 600;
   color: black;
   text-align: center;
-  margin-bottom: 30px;
+  
 }
 
 form .field {
@@ -186,6 +187,7 @@ ul {
 .footer-section {
   background: #151414;
   position: relative;
+ 
 }
 .footer-cta {
   border-bottom: 1px solid #373636;
