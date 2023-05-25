@@ -508,3 +508,65 @@ ul {
     font-size: 14px;
     color: #878787;
   }
+@media (max-width: 1530px){
+.bet-houses{
+
+width: 73%;
+
+}
+.card{
+
+width: 39%;
+
+
+}
+
+
+ }
+
+  @media (max-width: 1440px){
+
+.main-text{
+
+width: 70%;
+margin-left: 30%;
+
+}
+.bet-houses{
+
+width: 70%;
+
+
+}
+.footer-section{
+
+margin-top: 1600px;
+
+}
+.card{
+
+width: 39%;
+
+}
+.match-news{
+ width: 30%;
+
+
+}
+
+  }
+  @media (max-width: 1395px){
+.text h1, h2, h3, h4{
+
+
+font-size: 45pt;
+
+
+
+}
+.card {
+
+width: 37%;
+
+}
+  }
