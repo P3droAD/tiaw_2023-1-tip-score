@@ -8,7 +8,11 @@
 .nav-item li a:hover {
   color: green;
 }
-
+body{
+  background-image: url(https://wallpaper.dog/large/17106735.jpg);
+ background-repeat: no-repeat;
+ background-size: 1650px;
+}
 .container-forms {
   margin: 0;
   padding: 0;
@@ -19,18 +23,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://wallpaper.dog/large/17106735.jpg);
-  background-size: cover;
+ 
+
   
 }
 
 .form-signup {
     position: absolute;
-  max-width: 430px;
+  max-width: 100px;
   width: 100%;
-  padding: 30px;
+  padding: 10px;
   border-radius: 6px;
   background-color: white;
+ 
 }
 
 .form-login {
@@ -42,6 +47,8 @@
   font-weight: 600;
   color: black;
   text-align: center;
+  margin-top: 10px;
+  
   
 }
 
@@ -177,7 +184,8 @@ a:link {
   width: 100%;
   padding: 30px;
   border-radius: 6px;
-  background-color: white;
+  background-color:white;
+  margin-top: 150px;
 }
 
 ul {
@@ -187,6 +195,7 @@ ul {
 .footer-section {
   background: #151414;
   position: relative;
+  margin-top: 150px;
  
 }
 .footer-cta {
@@ -220,6 +229,7 @@ ul {
 .footer-content {
   position: relative;
   z-index: 2;
+  
 }
 .footer-pattern img {
   position: absolute;
